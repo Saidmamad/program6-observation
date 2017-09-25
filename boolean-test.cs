@@ -1,8 +1,15 @@
+// ##########################################################
+// # Program name: Program 6- Boolean test (observation)    #
+// # Language: C Sharp                                      #
+// # Last update: 25/09/2017                                #
+// # Author: Saidmamad Gulomshoev                           #
+// ##########################################################
+
 using System;
 
-namespace ConsoleApplication1
+namespace BooleanTestExample
 {
-    class Program
+    class Program6Obvervation
     {
         static void Main(string[] args)
         {
@@ -17,7 +24,7 @@ namespace ConsoleApplication1
                     var2 = Convert.ToInt32(Console.ReadLine());
                     if (isValid(var1, var2))
                     {
-                        Console.WriteLine("Print the values");
+                        Console.WriteLine("var1="+var1+"\nvar2="+var2);
                         break;
                     }
                     else
